@@ -21,31 +21,31 @@
 			rel="stylesheet"
 		/>
 		<!-- Custom styles -->
-		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 	<body>
-		<header class="header no-transparency">
-			<div class="header-container container">
+		<header class="header header--no-transparency">
+			<div class="header__container container">
 				<!--prettier-ignore-->
-				<a class="logo-header link" href="/">Web<span class="logo-black">Studio</span>
+				<a class="header__logo logo link" href="/">Web<span class="logo--black">Studio</span>
 			</a>
-				<nav class="header-nav">
-					<ul class="header-list list">
-						<li><a href="./index.html" class="nav-link link">Студія</a></li>
-						<li><a href="./portfolio.html" class="nav-link underline link">Портфоліо</a></li>
-						<li><a href="" class="nav-link link">Контакти</a></li>
+				<nav class="nav">
+					<ul class="nav__list list">
+						<li><a href="./index.html" class="nav__item link">Студія</a></li>
+						<li><a href="./portfolio.html" class="nav__item underline link">Портфоліо</a></li>
+						<li><a href="" class="nav__item link">Контакти</a></li>
 					</ul>
 				</nav>
-				<div class="adress-nav">
-					<a href="mailto:info@devstudio.com" class="header-mail link">
-						<svg class="header-ikon" width="16" height="12">
+				<div class="header__adress-nav">
+					<a href="mailto:info@devstudio.com" class="header__mail link">
+						<svg class="header__ikon" width="16" height="12">
 							<use href="./image/icons.svg#envelope"></use>
 						</svg>
 						info@devstudio.com
 					</a>
 
-					<a href="tel:+380961111111" class="header-tel link">
-						<svg class="header-ikon" width="10" height="16">
+					<a href="tel:+380961111111" class="header__tel link">
+						<svg class="header__ikon" width="10" height="16">
 							<use href="./image/icons.svg#smartphone"></use>
 						</svg>
 						+38 096 111 11 11
@@ -54,7 +54,7 @@
 			</div>
 		</header>
 		<main>
-			<section class="section">
+			<section class="portfolio section">
 				<div class="container">
 					<!-- Фильтр -->
 					<ul class="portfolio-nav list">
@@ -68,7 +68,7 @@
 					<!-- Список порфтфолио -->
 					<div>
 						<ul class="card-set list">
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img1.jpg" alt="Сторінка з людьми" width="370" height="294" />
@@ -85,7 +85,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img2.jpg" alt="Гравці в баскетбол" width="370" height="294" />
@@ -102,7 +102,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item p potfolio-frame">
+							<li class="card-set__item p potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img3.jpg" alt="Риба" width="370" height="294" />
@@ -119,7 +119,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img4.jpg" alt="Навушники" width="370" height="294" />
@@ -136,7 +136,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img5.jpg" alt="Дві коробки" width="370" height="294" />
@@ -153,7 +153,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img6.jpg" alt="Сайт з картою" width="370" height="294" />
@@ -170,7 +170,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img7.jpg" alt="Журнал" width="370" height="294" />
@@ -187,7 +187,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img8.jpg" alt="Надпись на кулоні" width="370" height="294" />
@@ -204,7 +204,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="card-set-item potfolio-frame">
+							<li class="card-set__item potfolio-frame">
 								<a class="card-ikon link" href="">
 									<div class="portfolio-thumb">
 										<img src="./image/Портфоліо/img9.jpg" alt="Друк на ноутбукі" width="370" height="294" />
@@ -227,79 +227,94 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<div class="container">
+			<div class="footer__container container">
 				<div class="studia-container">
 					<!--prettier-ignore-->
-					<a class="logo-footer link" href="/">Web<span class="logo-white">Studio</span>
+					<a class="footer__logo logo link" href="/">Web<span class="logo--white">Studio</span>
 				</a>
 					<ul class="list">
 						<li>
-							<a href="https://goo.gl/maps/XY4JZNYxvcEq1U4j7" class="footer-map adress link">
+							<a href="https://goo.gl/maps/XY4JZNYxvcEq1U4j7" class="footer__map adress link">
 								м. Київ, пр-т Лесі Українки, 26
 							</a>
 						</li>
-						<li><a href="mailto:info@devstudio.com" class="footer-link adress link">info@devstudio.com</a></li>
+						<li><a href="mailto:info@devstudio.com" class="footer__link adress link">info@devstudio.com</a></li>
 						<li>
-							<a href="tel:+380961111111" class="footer-link adress link">+38 096 111 11 11</a>
+							<a href="tel:+380961111111" class="footer__link adress link">+38 096 111 11 11</a>
 						</li>
 					</ul>
 				</div>
 				<div class="socials-container">
 					<p class="join-in">Приєднуйтесь</p>
-					<ul class="socials list">
-						<li class="socials-item">
+					<ul class="footer-socials socials list">
+						<li class="socials__item">
 							<a
-								class="socials-link link"
+								class="socials__link link"
 								href="https://www.instagram.com"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="instagram icon"
 							>
-								<svg class="socials-icon" width="20" height="20">
+								<svg class="socials__icon" width="20" height="20">
 									<use href="./image/icons.svg#instagram"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="socials-item">
+						<li class="socials__item">
 							<a
-								class="socials-link link"
+								class="socials__link link"
 								href="https://www.twitter.com"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="twitter icon"
 							>
-								<svg class="socials-icon" width="20" height="20">
+								<svg class="socials__icon" width="20" height="20">
 									<use href="./image/icons.svg#twitter"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="socials-item">
+						<li class="socials__item">
 							<a
-								class="socials-link link"
+								class="socials__link link"
 								href="https://www.facebook.com"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="facebook icon"
 							>
-								<svg class="socials-icon" width="20" height="20">
+								<svg class="socials__icon" width="20" height="20">
 									<use href="./image/icons.svg#facebook"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="socials-item">
+						<li class="socials__item">
 							<a
-								class="socials-link link"
+								class="socials__link link"
 								href="https://www.linkedIn.com"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="linkedIn icon"
 							>
-								<svg class="socials-icon" width="20" height="20">
+								<svg class="socials__icon" width="20" height="20">
 									<use href="./image/icons.svg#linkedin"></use>
 								</svg>
 							</a>
 						</li>
 					</ul>
+				</div>
+				<div class="signup-container">
+					<p class="sign-up">Підпишіться на розсилку</p>
+					<form name="signup_form">
+						<div class="signup-group">
+							<label class="signup-form-label" for="signup-email"></label>
+							<input class="signup-form-field" type="email" name="signup-email" id="signup-email" placeholder="Email" />
+							<div class="signup-btn-icon">
+								<button class="signup-form-btn btn" type="submit">Підписатися</button>
+								<svg class="signup-form-icon" width="24" height="24">
+									<use href="./image/icons.svg#send"></use>
+								</svg>
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 		</footer>
